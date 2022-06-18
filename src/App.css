@@ -1,4 +1,87 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1.5rem 0;
+}
+
+#root {
+  max-width: 22rem;
+  margin: auto;
+  border-radius: 0.8rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 1.2rem 0;
+}
+
+/* Header */
+header {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #334155;
+}
+
+header h1 span {
+  color: #7C3AED
+}
+
+header p {
+  font-size: 0.9rem;
+  color: #64748B
+}
+
+/* Contacts */
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li:hover {
+  background-color: #F5F3FF;
+}
+
+li:hover .contact-name {
+  color:#7C3AED;
+  font-weight: 700;
+}
+
+.contact {
+  padding: 0 1rem;
   display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.contact-photo {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.contact-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0.2rem;
+}
+
+.contact-phone {
+  font-size: 0.9rem;
+  color: #64748B;
+}
+
+.contact-email {
+  font-size: 0.75rem;
+  color: #94A3B8;
 }
